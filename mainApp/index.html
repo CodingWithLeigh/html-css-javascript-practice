@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess Of Word Game</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+
+
+        <link rel="preconnect" href="https://googleapis.com">
+        <link rel="preconnect" href="https://gstatic.com" crossorigin>
+        <link href="https://googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <!-- <div id="splash-img"></div> -->
+
+         <div id="username-box">
+            <div id="username-inner">
+            <h1 id="title">Guess Of Word</h1>
+            <h1 id="description">Play, Guess, Enjoy</h1>
+
+            <input id="username-input" type="username" placeholder="Username" maxlength="12">
+
+            <div id="button-group">
+            <button onclick="checkButton('submit_user')" id="submit-input">Submit</button>
+            <button onclick="checkButton('later_user')" id="later-input">Later</button>
+            </div>
+
+            <p id="footer">❤️Created By Leigh Ivan Corre</p>
+          </div>
+        </div>
+
+        <div class="notification" id="notification">
+            <div class="notification-inner" id="notification-inner">
+                <h1 id="notification-message">Are You Sure?</h1>
+                <p id="notification-message-2"></p>
+                <button onclick="showNotification(false)" id="notification-button">Submit</button>
+            </div>
+        </div>
+
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>

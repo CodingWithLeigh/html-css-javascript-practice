@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="favicon.jpg">
+        <title>Guess Of Word</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h2>Hello World!</h2>
+        <h3>Hello World!</h3>
+        <h4>Hello World!</h4>
+        <h5>Hello World!</h5>
+
+        <pre>
+            Lorem ipsum dolor sit 
+            amet consectetur adipisicing 
+            elit. Odio voluptate amet 
+            nulla quis sed maiores aut 
+            consequatur id voluptatum, ab, 
+            provident officia incidunt quod,
+            earum repellat eius eum laboriosam
+            autem.
+        </pre>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate amet nulla quis sed maiores aut consequatur id voluptatum, ab, provident officia incidunt quod, earum repellat eius eum laboriosam autem.
+        </p>
+
+     <!--   <a href="https://youtube.com" target="_blank" title="Secret Website!">
+        click me
+        </a> -->
+
+        <a href="sample.png">
+        <img src="sample.png" height="200" alt="this is my favorite song!">
+        </a>
+
+        <audio controls autoplay muted loop>
+            <source src="sample.mp3">
+        </audio>
+
+        <!-- <video src="sample.mp4" width="100%" controls autoplay muted loop></video> -->
+
+        <p>This is normal text</p>
+        <p>This is <b>Bold</b> text</p>
+        <p>This is <i>Italic</i> text</p>
+        <p>This is <u>Underlined</u> text</p>
+        <p>This is <del>Deleted</del> text</p>
+        <p>This is <big>Big</big> text</p>
+        <p>This is <small>Small</small> text</p>
+        <p>This is <sub>Subscript</sub> text</p>
+        <p>This is <sup>Supscript</sup> text</p>
+        <p>This is <tt>Monospaced</tt> text</p>
+        <p>This is <mark style="background-color: brown;">Mark</mark> text</p>
+
+        <h1> <span style="background-color: tomato;">Span Text</span> </h1>
+        <h1> <div style="background-color: blueviolet;">Div Text</div> </h1>
+
+        <!--Unordered List-->
+        <h4>Supported Devices</h4>
+        <ul>
+            <li>Computer</li>
+            <li>Laptop</li>
+            <li>Mobile</li>
+            <li>Appliances</li>
+            <ul>
+                <li>Ref</li>
+                <li>Blender</li>
+            </ul>
+        </ul>
+
+        <!--Ordered List-->
+
+        <h4>Supported Devices</h4>
+        <ol>
+            <li>Computer</li>
+            <li>Laptop</li>
+            <li>Mobile</li>
+            <li>Appliances</li>
+        </ol>
+
+        <!--Description List-->
+
+        <h4>Supported Devices</h4>
+        <dl>
+            <dt>Computer</dt>
+            <dd>is a machine</dd>
+        </dl>
+
+        <h3>Store Hours</h3>
+
+        <table border="1">
+            <tr>
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr align="center">
+                <td>Closed</td>
+                <td>Closed</td>
+                <td>9:5</td>
+                <td>10:5</td>
+                <td>10:5</td>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+
+        <a href="favicon.jpg">
+        <button style="font-size: 25px; background-color: gray; color:lightblue; border-radius: 25px">click me</button>
+        </a>
+
+        <button onclick="changeGreeting()"; style="font-size: 25px; background-color: gray; color:lightblue; border-radius: 25px">Hello</button>
+        
+        <p id="greetings">Hello User!</p>
+
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" id="username" minlength="6" required="">
+            <input type="reset" value="Reset">
+            <input type="submit">
+        </form>
+
+        <select>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select>
+
+        <textarea rows="3" cols="25"></textarea>
+
+        
+
+        <script>
+            function changeGreeting() {
+                document.getElementById("greetings").innerHTML = "Hi User!";
+            }
+        </script>
+        
+        <!-- THIS IS COMMENT-->
+    </body>
+</html>

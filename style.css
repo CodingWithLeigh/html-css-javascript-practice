@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif, Arial;
+    border: 3px solid purple;
+    border-radius: 20px;
+
+    text-shadow: 3px 3px 5px gray;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#p1 {
+    color: green;
+}
+
+.p2{
+    color: red;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    height: 2em;
+    width: 2em;
+}
+
+#box1 {
+    background-color: blue;
+    margin: auto;
+}
+
+#box2 {
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+#box3 {
+    background-color: green;
+    
+}
